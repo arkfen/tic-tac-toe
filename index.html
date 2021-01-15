@@ -65,6 +65,33 @@
 			}			
 
 		</style>
+		<script>
+			window.onload = function () {
+				var row1Сol1 = document.getElementById("row1col1");
+				var row1Сol2 = document.getElementById("row1col2");
+				var row1Сol3 = document.getElementById("row1col3");
+				var row2Сol1 = document.getElementById("row2col1");
+				var row2Сol2 = document.getElementById("row2col2");
+				var row2Сol3 = document.getElementById("row2col3");
+				var row3Сol1 = document.getElementById("row3col1");
+				var row3Сol2 = document.getElementById("row3col2");
+				var row3Сol3 = document.getElementById("row3col3");
+				row1Сol1.onclick = function(){(boxClick("row1col1"))};
+				row1Сol2.onclick = function(){(boxClick("row1col2"))};
+				row1Сol3.onclick = function(){(boxClick("row1col3"))};
+				row2Сol1.onclick = function(){(boxClick("row2col1"))};
+				row2Сol2.onclick = function(){(boxClick("row2col2"))};
+				row2Сol3.onclick = function(){(boxClick("row2col3"))};
+				row3Сol1.onclick = function(){(boxClick("row3col1"))};
+				row3Сol2.onclick = function(){(boxClick("row3col2"))};
+				row3Сol3.onclick = function(){(boxClick("row3col3"))};
+			};
+
+			function boxClick (id) {
+				console.log(id);
+			}
+		</script>
+
 	</head>
 
 	<body>
